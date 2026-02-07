@@ -9,3 +9,8 @@ def show_login_page():
     password = st.text_input(label='Senha', type='password')
     if st.button('Login'):
         login(username=username, password=password)
+
+    st.divider()
+    st.warning('⚠️ **Dados para teste:**')
+    st.text('Usuário: usuarioteste')
+    st.text('Senha: @123456@')
