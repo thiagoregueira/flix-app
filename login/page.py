@@ -14,3 +14,5 @@ def show_login_page():
     st.warning('⚠️ **Credenciais para teste:**')
     st.text('Usuário: usuarioteste')
     st.text('Senha: @123456@')
+
+    st.markdown('[📄 Documentação da API (Swagger)](https://flixapi.dominio.qzz.io/api/schema/swagger-ui/)')
