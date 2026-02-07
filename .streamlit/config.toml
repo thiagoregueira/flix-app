@@ -1,0 +1,6 @@
+[general]
+app_title = "Flix App"
+app_icon = "🍿"
+
+[server]
+port = 8501
