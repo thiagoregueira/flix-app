@@ -11,6 +11,6 @@ def show_login_page():
         login(username=username, password=password)
 
     st.divider()
-    st.warning('⚠️ **Dados para teste:**')
+    st.warning('⚠️ **Credenciais para teste:**')
     st.text('Usuário: usuarioteste')
     st.text('Senha: @123456@')
